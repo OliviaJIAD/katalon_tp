@@ -190,7 +190,7 @@ WebUI.waitForElementPresent(findTestObject('Page_Order - My Store/button_I confi
 WebUI.click(findTestObject('Page_Order - My Store/button_I confirm my order'))
 
 'Wait for success message'
-WebUI.waitForElementVisible(findTestObject('Page_Order - My Store/success'), 0)
+WebUI.waitForElementVisible(findTestObject('Page_Order - My Store/success'), 5)
 
 'Wait 5 seconds (to bask in automation glory)'
 WebUI.delay(5)
